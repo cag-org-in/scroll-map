@@ -1,11 +1,14 @@
 $(document).foundation();
 
-L.mapbox.accessToken = 'pk.eyJ1IjoibGF1cmVuYmVuaWNob3UiLCJhIjoiQ1BlZGczRSJ9.EVMieITn7lHNi6Ato9wFwg';
+L.mapbox.accessToken = 'pk.eyJ1IjoibmRvaXJvbjIiLCJhIjoiY2o0ZzkzamN0MDFnNTMycW53cWxocjZmeiJ9.JromgSz8YMJodPRTanfspQ';
 
 // Create a map in the div #map and takes two arguments: the id of the html element and the map id from Mapbox
-var map = L.mapbox.map('map', 'laurenbenichou.54e91cf8', {
-  zoomControl: false
-}).setView([37.812, -122.294], 15);
+var map = L.mapbox.map('map', {
+  zoomControl: false,
+  tiles: ['//api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}@2x?access_token=' + L.mapbox.accessToken]
+}).setView([13.0687307,80.2567912], 14);
+
+// L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
 
 // Create a featurelayer for markers and add to map
 var spots = L.mapbox.featureLayer()
@@ -25,7 +28,7 @@ function setCustomMarkers() {
     features: [{
       geometry: {
         type: "Point",
-        coordinates: [37.812, -122.294]
+        coordinates: [13.072, 80.294]
       },
       properties: {
         id: "cover",
@@ -35,7 +38,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.812515, -122.287030]
+        coordinates: [13.072515, 80.287030]
       },
       properties: {
         id: "defermery"
@@ -44,7 +47,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.805054, -122.295128]
+        coordinates: [13.075054, 80.295128]
       },
       properties: {
         id: "bart"
@@ -53,7 +56,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.815969, -122.316791]
+        coordinates: [13.075969, 80.316791]
       },
       properties: {
         id: "crane"
@@ -62,7 +65,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.815694, -122.297240]
+        coordinates: [13.075694, 80.297240]
       },
       properties: {
         id: "station"
@@ -71,7 +74,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.808917, -122.292539]
+        coordinates: [13.078917, 80.292539]
       },
       properties: {
         id: "mural"
@@ -80,7 +83,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.826317, -122.278605]
+        coordinates: [13.076317, 80.278605]
       },
       properties: {
         id: "hotel"
@@ -89,7 +92,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.818513, -122.278765]
+        coordinates: [13.078513, 80.278765]
       },
       properties: {
         id: "mcclymonds"
@@ -98,7 +101,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.812217, -122.295252]
+        coordinates: [13.072217, 80.295252]
       },
       properties: {
         id: "malik"
@@ -107,7 +110,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.811607, -122.294480]
+        coordinates: [13.071607, 80.294480]
       },
       properties: {
         id: "cookie"
@@ -116,7 +119,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.812878, -122.294654]
+        coordinates: [13.072878, 80.294654]
       },
       properties: {
         id: "kevin"
@@ -125,7 +128,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.810850, -122.296330]
+        coordinates: [13.070850, 80.296330]
       },
       properties: {
         id: "open"
@@ -134,7 +137,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.809877, -122.294366]
+        coordinates: [13.079877, 80.294366]
       },
       properties: {
         id: "joshua"
@@ -143,7 +146,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [37.807101, -122.269838]
+        coordinates: [13.077101, 80.269838]
       },
       properties: {
         id: "about"
