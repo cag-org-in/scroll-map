@@ -342,44 +342,8 @@ body.section-0 #map {
 #cover.active {
     background-color: rgba(147, 181, 186, .8);
 }
-#bart.active {
+#narrative section.active {
     background-color: rgba(153, 116, 175, .8);
-}
-#hotel.active {
-    background-color: rgba(54, 132, 166, .8);
-}
-#station.active {
-    background-color: rgba(240, 155, 67, .8);
-}
-#crane.active {
-    background-color: rgba(70, 134, 94, .8);
-}
-#defermery.active {
-    background-color: rgba(220, 103, 164, .8);
-}
-#mural.active {
-    background-color: rgba(184, 103, 26, 0.8);
-}
-#mcclymonds.active {
-    background-color: rgba(250, 212, 73, .8);
-}
-#joshua.active {
-    background-color: rgba(48, 115, 26, .8);
-}
-#kevin.active {
-    background-color: rgba(54, 231, 202, .8);
-}
-#open.active {
-    background-color: rgba(169, 231, 128, .8);
-}
-#cookie.active {
-    background-color: rgba(175, 178, 178, .8);
-}
-#malik.active {
-    background-color: rgba(55, 174, 181, .8);
-}
-#about.active {
-    background-color: rgba(247, 94, 103, .8);
 }
 /* background setup */
 
@@ -395,11 +359,15 @@ body.section-0 #map {
     background-image: url(../images/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
+    background-size: 1800px;
 }
 .sprite.active {
     z-index: 9999!important;
+    /*
     width: 120px!important;
     height: 120px!important;
+    */
+    border: #0f0;
 }
 .sprite-cover {
     display: none;

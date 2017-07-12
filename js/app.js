@@ -6,7 +6,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibmRvaXJvbjIiLCJhIjoiY2o0ZzkzamN0MDFnNTMycW53c
 var map = L.mapbox.map('map', {
   zoomControl: false,
   tiles: ['//api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}@2x?access_token=' + L.mapbox.accessToken]
-}).setView([13.0687307,80.2567912], 14);
+}).setView([13.039, 80.233], 15);
 
 // L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
 
@@ -28,7 +28,7 @@ function setCustomMarkers() {
     features: [{
       geometry: {
         type: "Point",
-        coordinates: [13.072, 80.294]
+        coordinates: [13.039, 80.243]
       },
       properties: {
         id: "cover",
@@ -38,118 +38,73 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.072515, 80.287030]
+        coordinates: [13.0399833,80.2434888]
       },
       properties: {
-        id: "defermery"
+        id: "4693-2"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.075054, 80.295128]
+        coordinates: [13.0406787,80.2365171]
       },
       properties: {
-        id: "bart"
+        id: "5226"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.075969, 80.316791]
+        coordinates: [13.0402433,80.2418298]
       },
       properties: {
-        id: "crane"
+        id: "5266"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.075694, 80.297240]
+        coordinates: [13.0364162,80.2340683]
       },
       properties: {
-        id: "station"
+        id: "828"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.078917, 80.292539]
+        coordinates: [13.0429794,80.2325589]
       },
       properties: {
-        id: "mural"
+        id: "842"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.076317, 80.278605]
+        coordinates: [13.0407223,80.2319868]
       },
       properties: {
-        id: "hotel"
+        id: "4434-2"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.078513, 80.278765]
+        coordinates: [13.0372222,80.2280724]
       },
       properties: {
-        id: "mcclymonds"
+        id: "851"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.072217, 80.295252]
+        coordinates: [13.0401683,80.2312348]
       },
       properties: {
-        id: "malik"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.071607, 80.294480]
-      },
-      properties: {
-        id: "cookie"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.072878, 80.294654]
-      },
-      properties: {
-        id: "kevin"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.070850, 80.296330]
-      },
-      properties: {
-        id: "open"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.079877, 80.294366]
-      },
-      properties: {
-        id: "joshua"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.077101, 80.269838]
-      },
-      properties: {
-        id: "about"
+        id: "819"
       },
       type: 'Feature'
     }]
@@ -269,7 +224,6 @@ function fadeOnClick() {
     e.preventDefault()
     target.fadeOut("slow");
     target_two.addClass("visible");
-
   });
 }
 
@@ -285,6 +239,7 @@ function animateLogo(){
 }
 
 function initSoc(){
+/*
   new Share(".share-bttn", {
   networks: {
     facebook: {
@@ -295,7 +250,7 @@ function initSoc(){
       }
     }
   });
-
+*/
 }
 
 initSoc()
