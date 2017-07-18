@@ -10,7 +10,7 @@ body,
     color: #f9904a;
 }
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Georgia', cursive;
 }
 h2,
 h3,
@@ -246,7 +246,7 @@ a:hover {
     margin-top: 20px;
 }
 #cover h1 {
-    font-size: 55px;
+    font-size: 50px;
 }
 #cover h1,
 h3 {
@@ -260,7 +260,14 @@ h3 {
     font-size: 30px;
 }
 #cover p {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+section > p {
+    font-size: 16px !important;
+    line-height: 30px !important;
+    margin-top: 20px !important;
 }
 section {
     padding: 30px;
@@ -363,11 +370,10 @@ body.section-0 #map {
 }
 .sprite.active {
     z-index: 9999!important;
-    /*
     width: 120px!important;
     height: 120px!important;
-    */
     border: #0f0;
+    background-size: 2600px;
 }
 .sprite-cover {
     display: none;

@@ -6,7 +6,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibmRvaXJvbjIiLCJhIjoiY2o0ZzkzamN0MDFnNTMycW53c
 var map = L.mapbox.map('map', {
   zoomControl: false,
   tiles: ['//api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}@2x?access_token=' + L.mapbox.accessToken]
-}).setView([13.039, 80.233], 15);
+}).setView([13.039, 80.225], 15);
 
 // L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
 
@@ -28,7 +28,7 @@ function setCustomMarkers() {
     features: [{
       geometry: {
         type: "Point",
-        coordinates: [13.039, 80.243]
+        coordinates: [13.039, 80.225]
       },
       properties: {
         id: "cover",
