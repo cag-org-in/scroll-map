@@ -362,18 +362,44 @@ body.section-0 #map {
 
     background-position: 50% 50%9 !important;
 }
+.sprite.icon1 {
+    background-image: url(../images/icon1.jpg);
+}
+.sprite.icon2 {
+    background-image: url(../images/icon2.jpg);
+}
+.sprite.icon3 {
+    background-image: url(../images/icon3.jpg);
+}
+.sprite.icon4 {
+    background-image: url(../images/icon4.jpg);
+}
+.sprite.icon5 {
+    background-image: url(../images/icon5.jpg);
+}
+.sprite.icon6 {
+    background-image: url(../images/icon6.jpg);
+}
+.sprite.icon7 {
+    background-image: url(../images/icon7.jpg);
+}
+.sprite.icon8 {
+    background-image: url(../images/icon8.jpg);
+}
 .sprite {
-    background-image: url(../images/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
-    background-size: 1800px;
+    background-size: 80px;
+    border-radius: 40px;
+    border: 4px solid #000;
 }
 .sprite.active {
-    z-index: 9999!important;
-    width: 120px!important;
-    height: 120px!important;
-    border: #0f0;
-    background-size: 2600px;
+    z-index: 9999 !important;
+    width: 120px !important;
+    height: 120px !important;
+    border-color: #0f0;
+    background-size: 120px;
+    border-radius: 60px;
 }
 .sprite-cover {
     display: none;

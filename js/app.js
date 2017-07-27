@@ -41,7 +41,8 @@ function setCustomMarkers() {
         coordinates: [13.0399833,80.2434888]
       },
       properties: {
-        id: "4693-2"
+        id: "4693-2",
+        icon: "icon2"
       },
       type: 'Feature'
     }, {
@@ -50,7 +51,8 @@ function setCustomMarkers() {
         coordinates: [13.0406787,80.2365171]
       },
       properties: {
-        id: "5226"
+        id: "5226",
+        icon: "icon4"
       },
       type: 'Feature'
     }, {
@@ -59,7 +61,8 @@ function setCustomMarkers() {
         coordinates: [13.0402433,80.2418298]
       },
       properties: {
-        id: "5266"
+        id: "5266",
+        icon: "icon8"
       },
       type: 'Feature'
     }, {
@@ -68,7 +71,8 @@ function setCustomMarkers() {
         coordinates: [13.0364162,80.2340683]
       },
       properties: {
-        id: "828"
+        id: "828",
+        icon: "icon6"
       },
       type: 'Feature'
     }, {
@@ -77,7 +81,8 @@ function setCustomMarkers() {
         coordinates: [13.0429794,80.2325589]
       },
       properties: {
-        id: "842"
+        id: "842",
+        icon: "icon7"
       },
       type: 'Feature'
     }, {
@@ -86,7 +91,8 @@ function setCustomMarkers() {
         coordinates: [13.0407223,80.2319868]
       },
       properties: {
-        id: "4434-2"
+        id: "4434-2",
+        icon: "icon1"
       },
       type: 'Feature'
     }, {
@@ -95,7 +101,8 @@ function setCustomMarkers() {
         coordinates: [13.0372222,80.2280724]
       },
       properties: {
-        id: "851"
+        id: "851",
+        icon: "icon3"
       },
       type: 'Feature'
     }, {
@@ -104,7 +111,8 @@ function setCustomMarkers() {
         coordinates: [13.0401683,80.2312348]
       },
       properties: {
-        id: "819"
+        id: "819",
+        icon: "icon5"
       },
       type: 'Feature'
     }]
@@ -114,7 +122,7 @@ function setCustomMarkers() {
 
   // define icons as cssIcons
   spots.eachLayer(function(e) {
-    var className = 'sprite sprite-' + e.feature.properties.id;
+    var className = 'sprite sprite-' + e.feature.properties.id + ' ' + e.feature.properties.icon;
     var coordinates = e.feature.geometry.coordinates;
     var html = "<div data-id='" + e.feature.properties.id + "'></div>"
     var cssIcon = L.divIcon({
