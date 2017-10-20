@@ -386,10 +386,31 @@ body.section-0 #map {
 .sprite.icon8 {
     background-image: url(../images/icon8.jpg);
 }
+.sprite-1-3 {
+  background-image: url(../images/1.3%20Dumpster.jpg);
+}
+.sprite-1-4 {
+  background-image: url(../images/1.4%20BWPs.jpg);
+}
+.sprite-1-5 {
+  background-image: url(../images/1.5%20Street%20sweeping.jpg);
+}
+.sprite-1-6 {
+  background-image: url(../images/1.6%20Transfer%20station.jpg);
+}
+.sprite-1-8 {
+  background-image: url(../images/1.8%20Kodungaiyur%20waste%20yard.jpg);
+}
+.sprite-1-9 {
+  background-image: url(../images/1.9%20Waste%20in%20Adyar%20River.jpg);
+}
+.sprite-1-10 {
+  background-image: url(../images/1.10%20Degradation%20of%20Pallikarnai.jpg);
+}
 .sprite {
     background-repeat: no-repeat;
     display: block;
-    background-size: 80px;
+    background-size: cover;
     border-radius: 40px;
     border: 4px solid #000;
 }
@@ -398,9 +419,9 @@ body.section-0 #map {
     width: 120px !important;
     height: 120px !important;
     border-color: #0f0;
-    background-size: 120px;
     border-radius: 60px;
 }
+
 .sprite-cover {
     display: none;
 }

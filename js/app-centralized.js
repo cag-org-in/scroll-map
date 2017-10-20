@@ -38,21 +38,11 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.042837, 80.231571]
-      },
-      properties: {
-        id: "4693-2",
-        icon: "icon2"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
         coordinates: [13.040602, 80.233539]
       },
       properties: {
-        id: "5226",
-        icon: "icon4"
+        id: "1-3",
+        icon: "1-3"
       },
       type: 'Feature'
     }, {
@@ -61,8 +51,8 @@ function setCustomMarkers() {
         coordinates: [13.040377, 80.233607]
       },
       properties: {
-        id: "5226",
-        icon: "icon4"
+        id: "1-4",
+        icon: "1-4"
       },
       type: 'Feature'
     }, {
@@ -71,8 +61,8 @@ function setCustomMarkers() {
         coordinates: [13.042744, 80.231779]
       },
       properties: {
-        id: "5266",
-        icon: "icon8"
+        id: "1-5",
+        icon: "1-5"
       },
       type: 'Feature'
     }, {
@@ -81,28 +71,38 @@ function setCustomMarkers() {
         coordinates: [13.052466, 80.240058]
       },
       properties: {
-        id: "828",
-        icon: "icon6"
+        id: "1-6",
+        icon: "1-6"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.134704, 80.269724]
+        coordinates: [13.134704,80.2675299]
       },
       properties: {
-        id: "842",
-        icon: "icon7"
+        id: "1-8",
+        icon: "1-8"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.015966, 80.232077]
+        coordinates: [13.0159722,80.2298946]
       },
       properties: {
-        id: "4434-2",
-        icon: "icon1"
+        id: "1-9",
+        icon: "1-9"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [12.945,80.227728]
+      },
+      properties: {
+        id: "1-10",
+        icon: "1-10"
       },
       type: 'Feature'
     }]
