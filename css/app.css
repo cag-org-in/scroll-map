@@ -407,6 +407,9 @@ body.section-0 #map {
 .sprite-1-10 {
   background-image: url(../images/1.10%20Degradation%20of%20Pallikarnai.jpg);
 }
+.sprite-2-2 {
+  background-image: url(../images/2.2%20Door%20to%20Door%20Collection.jpg)
+}
 .sprite {
     background-repeat: no-repeat;
     display: block;

@@ -38,94 +38,95 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.041082, 80.261127]
+        coordinates: [13.041083, 80.261139]
       },
       properties: {
-        id: "4693-2",
-        icon: "icon2"
+        id: "2-2",
+        icon: "2-2"
       },
       type: 'Feature'
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.034558, 80.268686]
+        coordinates: [13.035528, 80.249333]
       },
       properties: {
-        id: "5226",
-        icon: "icon4"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.036814, 80.268498]
-      },
-      properties: {
-        id: "5266",
-        icon: "icon8"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.037951, 80.266098]
-      },
-      properties: {
-        id: "828",
-        icon: "icon6"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.037471, 80.265355]
-      },
-      properties: {
-        id: "842",
-        icon: "icon7"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.040397, 80.263828]
-      },
-      properties: {
-        id: "4434-2",
-        icon: "icon1"
-      },
-      type: 'Feature'
-    }, {
-      geometry: {
-        type: "Point",
-        coordinates: [13.035507, 80.217711]
-      },
-      properties: {
-        id: "851",
+        id: "2-3",
         icon: "icon3"
       },
       type: 'Feature'
-    }, {
+    },{
       geometry: {
         type: "Point",
-        coordinates: [13.134704, 80.269724]
+        coordinates: [13.029361, 80.270056]
       },
       properties: {
-        id: "819",
+        id: "2-4",
+        icon: "icon4"
+      },
+      type: 'Feature'
+    },{
+      geometry: {
+        type: "Point",
+        coordinates: [13.048306, 80.263972]
+      },
+      properties: {
+        id: "2-5",
         icon: "icon5"
       },
       type: 'Feature'
-    }, {
+    },{
       geometry: {
         type: "Point",
-        coordinates: [12.955798, 80.225809]
+        coordinates: [13.033944, 80.275000]
       },
       properties: {
-        id: "819",
+        id: "2-6",
+        icon: "icon6"
+      },
+      type: 'Feature'
+    },{
+      geometry: {
+        type: "Point",
+        coordinates: [13.040389, 80.263833]
+      },
+      properties: {
+        id: "2-7",
+        icon: "icon2"
+      },
+      type: 'Feature'
+    },{
+      geometry: {
+        type: "Point",
+        coordinates: [13.027778, 80.258000]
+      },
+      properties: {
+        id: "2-8",
+        icon: "icon3"
+      },
+      type: 'Feature'
+    },{
+      geometry: {
+        type: "Point",
+        coordinates: [13.019333, 80.262556]
+      },
+      properties: {
+        id: "2-9",
+        icon: "icon4"
+      },
+      type: 'Feature'
+    },{
+      geometry: {
+        type: "Point",
+        coordinates: [12.955806, 80.225806]
+      },
+      properties: {
+        id: "2-10",
         icon: "icon5"
       },
       type: 'Feature'
-    }]
+    }
+  ]
   };
 
   spots.setGeoJSON(places);
