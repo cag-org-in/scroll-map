@@ -82,7 +82,7 @@ function setCustomMarkers() {
       },
       properties: {
         id: "1-7",
-        icon: "1-6"
+        icon: "1-7"
       },
       type: 'Feature'
     }, {
