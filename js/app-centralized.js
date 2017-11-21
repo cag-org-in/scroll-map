@@ -68,10 +68,20 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.052466, 80.240058]
+        coordinates: [13.042837,80.2293769]
       },
       properties: {
         id: "1-6",
+        icon: "1-6"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [13.052393,80.2378639]
+      },
+      properties: {
+        id: "1-7",
         icon: "1-6"
       },
       type: 'Feature'
