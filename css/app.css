@@ -396,7 +396,7 @@ body.section-0 #map {
   background-image: url(../images/1.5%20Street%20sweeping.jpg);
 }
 .sprite-1-6 {
-  background-image: url(../images/bikecart.jpeg);  
+  background-image: url(../images/bikecart.jpeg);
 }
 .sprite-1-7 {
   background-image: url(../images/1.6%20Transfer%20station.jpg);
@@ -413,6 +413,28 @@ body.section-0 #map {
 .sprite-2-2 {
   background-image: url(../images/2.2%20Door%20to%20Door%20Collection.jpg)
 }
+.sprite-2-3 {
+  background-image: url(../images/hotel.jpg);
+}
+.sprite-2-4 {
+  background-image: url(../images/RWAs.jpg);
+}
+.sprite-2-5 {
+  background-image: url(../images/event%20or%20gatherings.jpeg);
+}
+.sprite-2-6 {
+  background-image: url(../images/street%20sweeping.jpeg);
+}
+.sprite-2-7 {
+  background-image: url(../images/Composting%20unit.jpeg);
+}
+.sprite-2-8 {
+  background-image: url(../images/Waste%20paper%20mart.jpeg);
+}
+.sprite-2-9 {
+  background-image: url(../images/MRF.jpeg);
+}
+
 .sprite {
     background-repeat: no-repeat;
     display: block;

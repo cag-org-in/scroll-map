@@ -38,7 +38,7 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.041083, 80.261139]
+        coordinates: [13.041082,80.2605785]
       },
       properties: {
         id: "2-2",
@@ -48,81 +48,71 @@ function setCustomMarkers() {
     }, {
       geometry: {
         type: "Point",
-        coordinates: [13.035528, 80.249333]
+        coordinates: [13.0355278,80.2471446]
       },
       properties: {
         id: "2-3",
-        icon: "icon3"
+        icon: "2-3"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.029361, 80.270056]
+        coordinates: [13.0307429,80.2676571]
       },
       properties: {
         id: "2-4",
-        icon: "icon4"
+        icon: "2-4"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.048306, 80.263972]
+        coordinates: [13.048296,80.2628647]
       },
       properties: {
         id: "2-5",
-        icon: "icon5"
+        icon: "2-5"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.033944, 80.275000]
+        coordinates: [13.033943,80.2728123]
       },
       properties: {
         id: "2-6",
-        icon: "icon6"
+        icon: "2-6"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.040389, 80.263833]
+        coordinates: [13.040397,80.2616339]
       },
       properties: {
         id: "2-7",
-        icon: "icon2"
+        icon: "2-7"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.027778, 80.258000]
+        coordinates: [13.027764,80.2558083]
       },
       properties: {
         id: "2-8",
-        icon: "icon3"
+        icon: "2-8"
       },
       type: 'Feature'
     },{
       geometry: {
         type: "Point",
-        coordinates: [13.019333, 80.262556]
+        coordinates: [13.019326,80.2620108]
       },
       properties: {
         id: "2-9",
-        icon: "icon4"
-      },
-      type: 'Feature'
-    },{
-      geometry: {
-        type: "Point",
-        coordinates: [12.955806, 80.225806]
-      },
-      properties: {
-        id: "2-10",
-        icon: "icon5"
+        icon: "2-9"
       },
       type: 'Feature'
     }
